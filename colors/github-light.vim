@@ -52,7 +52,7 @@ let s:gh_grey   = '#8f9aa9'
 let s:gh_red    = '#0e0e0e'
 let s:gh_orange = '#e98642'
 let s:gh_blue0  = '#0c804e'
-let s:gh_blue1  = '#2076d8'
+let s:gh_blue1  = '#2d7fd9'
 let s:gh_purple = '#2c6582'
 " let s:gh_url    = '#80a0ff'
 let s:gh_url    = '#678CFA'
@@ -308,9 +308,9 @@ call s:_('Character',            '#238fff', '',        'bold')
 
 call s:_('SpecialIdentifier',    '#9c5fff', '',        'none')
 
-call s:_('Special',              '#a755df', '',        'none')
-call s:_('SpecialBold',          '#a755df', '',        'bold')
-call s:_('SpecialDelimiter',     '#a040af', '',        'none')
+call s:_('Special',              '#986413', '',        'none')
+call s:_('SpecialBold',          '#b6bd89', '',        'bold')
+call s:_('SpecialDelimiter',     '#d9a67f', '',        'none')
 
 
 call s:_('Identifier',           theme.fg,  '',        'none')
