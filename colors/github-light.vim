@@ -38,7 +38,7 @@ endfunc
 " Colors                                                                     {{{
 
 let s:black0    = '#000000'
-let s:black1    = '#24292e'
+let s:black1    = '#14161b'
 let s:black2    = '#4c4c4c'
 let s:white     = '#f4fbfe'
 
@@ -49,10 +49,10 @@ let s:brightyellow    = '#ffe914'
 let s:gh_link = '#0366d6'
 
 let s:gh_grey   = '#8f9aa9'
-let s:gh_red    = '#0e0e0e'
+let s:gh_red    = '#772120'
 let s:gh_orange = '#e98642'
 let s:gh_blue0  = '#0c804e'
-let s:gh_blue1  = '#2d7fd9'
+let s:gh_blue1  = '#1d4f9c'  "    '#2d7fd9'
 let s:gh_purple = '#2c6582'
 " let s:gh_url    = '#80a0ff'
 let s:gh_url    = '#678CFA'
@@ -285,7 +285,7 @@ call s:_('Include',              s:gh_blue1, '',        'bold')
 call s:_('Repeat',               s:gh_red, '',        '')
 call s:_('Keyword',              s:gh_red, '',        '')
 call s:_('Statement',            s:gh_red, '',        'none')
-call s:_('Label',                s:gh_red, '',        '')
+call s:_('Label',                s:gh_purple, '',        '')
 
 call s:_('Operator',             s:gh_blue1, '',        '')
 "call s:_('Operator',             '#94afff', '',        '')
@@ -300,7 +300,7 @@ call s:_('Delimiter',            '#668799', '',        'none')
 call s:_('DelimiterAlt',         '#799033', '',        'none')
 call s:_('SpecialChar',          '#799d6a', '',        'bold')
 
-call s:_('String',               s:gh_blue0, '',        'none')
+call s:_('String',               s:black1, '',        'none')
 call s:_('StringDelimiter',      '#032f62', '',        'bold')
 
 call s:_('Character',            '#238fff', '',        'bold')
@@ -329,10 +329,10 @@ call s:_('StaticFunc',           '#ffb964', '',        'none')
 call s:_('Property',             s:gh_orange, '',        'none')
 
 
-call s:_('Type',                 s:gh_red, '',        'none')
+call s:_('Type',                 s:darkyellow, '',        'none')
 call s:_('StorageClass',         s:gh_red, '',        'none')
 call s:_('Class',                s:gh_red, '',        'none')
-call s:_('Structure',            s:gh_red, '',        'none')
+call s:_('Structure',            s:gh_orange, '',        'none')
 call s:_('Typedef',              s:gh_red, '',        'none')
 
 call s:_('Regexp',               '#dd0093', 'none',        'none')
