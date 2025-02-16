@@ -81,7 +81,7 @@ let theme = {}
 let theme.base                  = '#202020'
 let theme.insensitive_base      = '#282828'
 
-let theme.fg                    = '#24292e'
+let theme.fg                    = '#222222'
 let theme.fg_light              = '#454B53'
 let theme.fg_lighter            = '#666D74'
 let theme.fg_subtle             = '#c0c0c0'
@@ -233,7 +233,7 @@ call s:_('SpecialKey',      '#333333',        'none',    '')
 call s:_('NonText',         theme.fg_subtle,  '',        'bold')
 call s:_('MatchParen',      '',               '#BCE3FF', 'none')
 call s:_('SpecialOpt',      '#868680',        '#32363a', '')
-call s:_('Whitespace',      '#8f9aa9',        '',        '')
+call s:_('Whitespace',      '#333333',        '',        '')
 
 
 
