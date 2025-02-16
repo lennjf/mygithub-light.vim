@@ -246,9 +246,9 @@ call s:_('Question',        '#65C254', '', '',     'Green', '')
 call s:_('Todo',            '#3b84ea', 'none', 'bold')
 
 call s:_('File',            theme.fg,  '',     'bold')
-call s:_('Directory',       '#3365CE', '',     'bold')
-call s:_('Section',         '#3365CE', '',     'bold')
-call s:_('Title',           '#3365CE', '',     'bold')
+call s:_('Directory',       '#1D4F9C', '',     'bold')
+call s:_('Section',         '#F9C470', '',     'bold')
+call s:_('Title',           '#000000', '',     'bold')
 " call s:_('Directory',       '#3365CE', '',     'bold')
 
 call s:_('Bold', '', '', 'bold')
