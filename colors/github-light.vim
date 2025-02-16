@@ -38,7 +38,7 @@ endfunc
 " Colors                                                                     {{{
 
 let s:black0    = '#000000'
-let s:black1    = '#14161b'
+let s:black1    = '#050002'
 let s:black2    = '#4c4c4c'
 let s:white     = '#f4fbfe'
 
@@ -90,15 +90,15 @@ let theme.fg_widget             = '#cad0d3'
 let theme.fg_conceal            = '#e2e8eb'
 let theme.fg_overlay            = '#777777'
 let theme.fg_widget_dark        = '#8f9aa9'
-let theme.fg_widget_alt         = '#ffffff'
+let theme.fg_widget_alt         = '#eeeeee'
 let theme.fg_widget_alt_nc      = '#333333'
 
 
-let theme.bg                    = '#ffffff'
+let theme.bg                    = '#dddddd'
 let theme.bg_subtle             = '#f0f0f0'
 let theme.bg_popover            = '#e0e0e0'
-let theme.bg_verysubtle         = '#f5f5f5'
-let theme.bg_widget             = '#ffffff'
+let theme.bg_verysubtle         = '#f5f5f5' 
+let theme.bg_widget             = '#cccccc'
 let theme.bg_overlay            = '#fffbf1'
 let theme.bg_dark               = '#d0d0d0'
 let theme.bg_light              = '#e5e7e9'
@@ -111,7 +111,7 @@ let theme.bg_hl                 = '#404040'
 let theme.hover                 = '#505050'
 
 let theme.hl                    = '#599eff'
-let theme.hl_fg                 = '#ffffff'
+let theme.hl_fg                 = '#f0f0f0'
 
 let theme.fg_selection          = 'none'
 let theme.bg_selection          = '#d7d4ef'
@@ -314,7 +314,7 @@ call s:_('SpecialDelimiter',     '#d9a67f', '',        'none')
 
 
 call s:_('Identifier',           theme.fg,  '',        'none')
-call s:_('Variable',             '#ffe790', '',        'none')
+call s:_('Variable',             '#ffffff', '',        'none')
 call s:_('Argument',             theme.fg,  '',        'none')
 
 call s:_('Function',             s:gh_purple, '',        'none')
